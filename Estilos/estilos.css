@@ -311,6 +311,10 @@ small{
     .intro{
         font-size: 0.9em;
     }
+
+    .sociales{
+        width: 50%;
+    }
 }
 
 
