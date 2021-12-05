@@ -51,10 +51,10 @@ header{
     height: 3px;
     background-color: white;
     margin: 5px;
-    -webkit-transition: all 0.3 ease;
-    -o-transition: all 0.3 ease;
-    -moz-transition: all 0.3 ease;;
-    transition: all 0.3 ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
 }
 
 .toggle .linea1{
@@ -123,7 +123,14 @@ nav.active{
 }
 
 .links.active{
-    right: 0%;
+    /*opacity: 100;*/
+    -webkit-animation: 0.3s 1 popUp;
+    -moz-animation: 0.3s 1 popUp;
+    -o-animation: 0.3s 1 popUp;
+    animation: 0.3s 1 popUp;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 .no-scroll{
@@ -211,6 +218,24 @@ footer section{
 
         /*Pagina Newborn*/
 
+@keyframes popUp {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes popOut {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
 small{
     color: red;
     font-size: 0.6em !important;
@@ -229,7 +254,6 @@ small{
     .links {
         position: fixed;
         top: 0;
-        right: -100%;
         height: 100%;
         width: 100%;
         max-width: 375px;
@@ -239,22 +263,13 @@ small{
         text-align: center;
         justify-content: space-around;
         flex-direction: column;
-        -webkit-transition: all 3s ease;
-        -moz-transition: all 3s ease;
-        -o-transition: all 3s ease;
-        transition: all 3s ease;
     }
-    
+
     nav {
         display: none;
         position: fixed;
         z-index: 2;
         width: 100%;
-        /*padding: 25px 0;*/
-        -webkit-transition: all 3s ease;
-        -moz-transition: all 3s ease;
-        -o-transition: all 3s ease;
-        transition: all 3s ease;
     }
 
     header .eslogan{
@@ -312,7 +327,7 @@ small{
     .links {
         position: fixed;
         top: 0;
-        right: -100%;
+        right: 0%;
         height: 100%;
         width: 100%;
         max-width: 375px;
@@ -322,10 +337,6 @@ small{
         text-align: center;
         justify-content: space-around;
         flex-direction: column;
-        -webkit-transition: all 3s ease;
-        -moz-transition: all 3s ease;
-        -o-transition: all 3s ease;
-        transition: all 3s ease;
     }
     
     nav {
@@ -333,11 +344,6 @@ small{
         position: fixed;
         z-index: 2;
         width: 100%;
-        /*padding: 25px 0;*/
-        -webkit-transition: all 3s ease;
-        -moz-transition: all 3s ease;
-        -o-transition: all 3s ease;
-        transition: all 3s ease;
     }
 
     .logo{
