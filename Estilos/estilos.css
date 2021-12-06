@@ -254,9 +254,10 @@ small{
     .links {
         position: fixed;
         top: 0;
+        right: 0%;
         height: 100%;
         width: 100%;
-        max-width: 375px;
+        max-width: 400px;
         background-color: #D0AF94;
         display: flex;
         padding: 40px 0;
@@ -334,7 +335,7 @@ small{
         right: 0%;
         height: 100%;
         width: 100%;
-        max-width: 375px;
+        max-width: 400px;
         background-color: #D0AF94;
         display: flex;
         padding: 40px 0;
