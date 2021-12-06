@@ -47,10 +47,10 @@ header{
 }
 
 .burger div{
-    width: 27px;
+    width: 31px;
     height: 3px;
     background-color: white;
-    margin: 5px;
+    margin: 6px;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;;
@@ -58,10 +58,10 @@ header{
 }
 
 .toggle .linea1{
-    -webkit-transform: rotate(-45deg) translate(-5px,6px);
-    -ms-transform: rotate(-45deg) translate(-5px,6px);
-    -o-transform: rotate(-45deg) translate(-5px,6px);
-    transform: rotate(-45deg) translate(-5px,6px);
+    -webkit-transform: rotate(-45deg) translate(-6px,6px);
+    -ms-transform: rotate(-45deg) translate(-6px,6px);
+    -o-transform: rotate(-45deg) translate(-6px,6px);
+    transform: rotate(-45deg) translate(-6px,6px);
 }
 
 .toggle .linea2{
@@ -69,10 +69,10 @@ header{
 }
 
 .toggle .linea3{  
-    -webkit-transform: rotate(45deg) translate(-5px,-6px);
-    -ms-transform: rotate(45deg) translate(-5px,-6px);
-    -o-transform: rotate(45deg) translate(-5px,-6px); 
-    transform: rotate(45deg) translate(-5px,-6px);
+    -webkit-transform: rotate(45deg) translate(-6px,-6px);
+    -ms-transform: rotate(45deg) translate(-6px,-6px);
+    -o-transform: rotate(45deg) translate(-6px,-6px); 
+    transform: rotate(45deg) translate(-6px,-6px);
 }
 
 /*Booton para el menu*/
